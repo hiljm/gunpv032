@@ -2,12 +2,11 @@
 <html lang="ko">
 <head>
        <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
     <meta property="og:image" content="http://www.aia.co.kr/content/dam/kr/ko/images/site/og/aia-life.png">
-    <title>(무) AIA 건강플러스 암보험(갱신형)</title>
+    <title>0724_(무) AIA건강+ 암보험(갱신형)</title>
 
 <script type="text/javascript">
 	var _dl = {
@@ -80,16 +79,16 @@
         .db_box ul { margin-top:24px; }
         .db_box ul:after { content:""; display:block; clear:both; }
         .db_box ul li:after { content: ""; display: block; clear: both; }
-        .db_box ul li { float:left; position: relative; width: 98%; height: 40px; margin-bottom: 20px; }
+        .db_box ul li { float:left; position: relative; width: 100%; height: 40px; margin-bottom: 20px; }
         .db_box ul li:last-child { margin-bottom:0; }
-		.db_box ul li.name { display: inline-block;}
+		.db_box ul li.name { display: inline-block; width:100%}
         .db_box ul li.name input { float: left; width:100%}
 
         .db_box ul li.birth {display: flex; align-items: center;}
         .db_box ul li.birth span.space {margin: 0 3px;}
         .db_box ul li.birth span.back_digit {display: flex; align-items: center; font-size: 85%; color: #666;}
-        .db_box ul li.birth input:first-child {width: 50%; letter-spacing: -3px;}
-        .db_box ul li.birth input:last-child {display: flex; align-items: center; width: 35px; margin-right: 3px; font-size: 90%; text-align: center; letter-spacing: 0px;}
+        .db_box ul li.birth input:first-child {width: 50%;}
+        .db_box ul li.birth input:last-child {display: flex; align-items: center; width: 35px; margin-right: 3px; /*font-size: 100%;*/ text-align: center;}
         .db_box ul li.birth input:last-child::placeholder { color: #666;}
 		
         .db_box ul li.sex { position: absolute; top: 90px; right: 24px; width: 65px; padding: 0; }
@@ -124,8 +123,10 @@
 		.sc1 .inner .db_box_title h3 {text-align: center;}
 		.sc1 .inner .db_box {z-index: 0; right: -20px; top: 60px; width: 330px; height: 350px; padding: 40px 20px; background-color: #fbe8ed; border-radius: 20px; border:1px solid #ec98af;}
 		.sc1 .inner .db_box h3 {text-align: center;}
-		.sc1 .inner .db_box ul li.name {width:98%}
+		.sc1 .inner .db_box ul li.name {width:100%}
 		.sc1 .inner .db_box ul li.sex input + label {top: -4px; height: 35px; width:35px; margin-left: -15px; line-height: 35px; font-size: 15pt;}
+		.sc1 .inner .db_box ul li.birth input:first-child::placeholder { letter-spacing: -2.7px;}
+		.sc1 .inner .db_box ul li.birth input:last-child::placeholder {font-size:75%; letter-spacing: 5px;}
 
         .sc2 .img01 {width: 100%;   background-color: #d31145;  text-align: center; display: flex; justify-content: center;}
 		.sc2 .img01 img {width: 50%;}
@@ -186,16 +187,18 @@
         .sc6 .inner .db_box form {float: right; width: 547px;}
         .sc6 .inner .db_box form ul {margin-top: 0;}
         .sc6 .inner .db_box .db_box_btn {display: inline-block; margin-top: 40px;text-align:center;}
-		.sc6 .inner .db_box ul li.name { width:98%;}
+		.sc6 .inner .db_box ul li.name { width:100%;}
         .sc6 .inner .db_box ul li.sex {top: auto; right: 60px; margin-bottom: 0;}
         .sc6 .inner .db_box ul li.sex input + label {height: 40px; width:50px; margin-right: -50px; line-height: 40px; font-size: 15pt;}
         .sc6 .inner .db_box ul li.sex input:checked + label {background: #28313a;}
 
-        .sc6 .inner .db_box ul li.birth span.space {color: #fff; margin: 0 15px;}
-		.sc6 .inner .db_box ul li.birth input:first-child {letter-spacing:-0.75px;}
-		.sc6 .inner .db_box ul li.birth input:last-child {width:45px; margin-right: 15px;}
-		.sc6 .inner .db_box ul li.birth span.back_digit {color: #fff; letter-spacing: 6px;}
-			
+        .sc6 .inner .db_box input[type="text"] {font-size: 19px; letter-spacing: -0.75px;}
+		.sc6 .inner .db_box ul li.birth span.space {color: #fff; margin: 0 5px;}
+        .sc6 .inner .db_box ul li.birth span.back_digit {color: #fff; letter-spacing: 9px;}
+        .sc6 .inner .db_box ul li.birth input:last-child {padding: 0px 0px 1px 0px; width:40px; margin-right:15px;}
+        .sc6 .inner .db_box ul li.birth input:last-child::placeholder { font-size:75%;}
+        
+
         .guide_area .guide_top {width: 100%; background-color: #5a5a5a; text-align: center;}
         .guide_area .guide_top button {width: 100%; cursor: pointer; padding: 10px 0;}
         .guide_area .guide_wrap {display: none; text-align: center;}
@@ -206,7 +209,7 @@
         .footer .inner a {position: absolute; width: 180px; height: 70px; left: 160px; top: 30px; text-indent: -9999px;}
 
 
-        .floating { position: fixed; top: 220px; left: 50%; margin-left: 30vw; width: 240px; /*height: 290px;*/ background-color: #fbe8ed; border-radius: 15px; padding: 20px; opacity: 0; transition: opacity 0.3s;border : 1px solid #ec98af;}
+        .floating { position: fixed; top: 640px; left: 50%; margin-left: 550px; width: 240px; /*height: 290px;*/ background-color: #fbe8ed; border-radius: 15px; padding: 20px; opacity: 0; transition: opacity 0.3s;border : 1px solid #ec98af;}
         .floating.fixed { position: fixed; top: 220px; opacity: 1;}
         .floating .db_box {text-align: center;}
         .db_box ul {margin-top: 45px;}
@@ -217,9 +220,9 @@
 
 
 		.floating .db_box ul li.birth span.back_digit {font-size: 10px;}
-        .floating .db_box ul li.birth input:first-child {width: 40%;letter-spacing: -0.2vw;}
-        .floating .db_box ul li.birth input:last-child {padding: 0; width: 30px;}
-
+        .floating .db_box ul li.birth input:first-child {width: 42%;}
+        .floating .db_box ul li.birth input:last-child {padding: 0px 0px 1px 0px; width: 30px;}
+		.floating .db_box ul li.birth input:last-child::placeholder { font-size:55%;line-height: 2;}
 				
         .floating .db_box .btn_area { margin-top: 10px; text-align: center; }
         .floating .db_box .btn_area a { float: initial; }
@@ -276,7 +279,7 @@
 
             .db_box ul {margin-top: 5vw;}
             .db_box ul li {height: 8vw; margin-bottom: 3vw;}
-            .db_box input[type="text"] {font-size: 3.5vw; height: 100%; line-height: unset;}
+            .db_box input[type="text"] {font-size: 3.5vw; height: 100%; line-height: unset; padding: 0 1vw;}
 			.db_box ul li.name {width: 90vw}
             .db_box ul li.sex {width: 14.5vw; top: 5.5vw; right: 10vw;}
             .db_box ul li.sex input + label {width: 7vw; height: 7vw; font-size: 3.5vw; line-height: 6vw; border-radius: 1.5vw; border:1px solid #d9d9d9;}
@@ -284,9 +287,9 @@
             .db_box .db_box_btn a {width: 49%;}
 
             .db_box ul li.birth span.space {margin: 0 1vw; font-size: 3.2vw;}
-            .db_box ul li.birth span.back_digit {height: 100%; font-size: 3.2vw; letter-spacing:0.1vw}
-            .db_box ul li.birth input:first-child {width: 55%;}
-            .db_box ul li.birth input:last-child {width: 8vw; margin-right: 1vw; font-size: 90%; padding: 0;}
+            .db_box ul li.birth span.back_digit {height: 100%; font-size: 2.8vw;}
+            .db_box ul li.birth input:first-child {width: 50%;}
+            .db_box ul li.birth input:last-child {width: 8vw; margin-right: 2vw; padding-left:0vw; padding-bottom:0.5vw;}
             .db_box ul li.birth input:last-child::placeholder { color: #666;}
 
             .inner {max-width: 100%;}
@@ -298,7 +301,7 @@
             .sc1 {background-color: transparent;}
             .sc1 .inner {width: 95%; height: 184vw;}
             .sc1 .inner .img01 {display: none;bottom: auto; top: 1vw; left: 0; width: 52vw; border-radius: 6vw; overflow: hidden;}
-            .sc1 .inner .img02 {top: 86vw; left: 5%; width: 67vw; opacity: 0.8;}
+            .sc1 .inner .img02 {top: 84vw; left: 5%; width: 67vw; opacity: 0.8;}
             .sc1 .inner .img03 {top: 6vw; left: auto; right: 7vw; width: 45vw;}
             .sc1 .inner .img04 {top: 6vw; left: auto; right: 3vw; width: 84vw;}
             .sc1 .inner .img05 {top: 38vw; left: auto; right: 7vw; width: 82%;}
@@ -308,10 +311,12 @@
 			.sc1 .inner .db_box_title h3 img {width: 60vw; margin: 2vw auto 5vw;}
 			.sc1 .inner .db_box {top: 126vw; width: 106%; height: 58vw; left: 50%; transform: translateX(-50%); padding: 0vw 8vw; border-radius: 0px;}
 			.sc1 .inner .db_box {background-color: #fbe8ed; border:0px solid #ec98af;}
-			.sc1 .inner .db_box ul li.name input {width:100%;}
+			.sc1 .inner .db_box ul li.name input {}
 			.sc1 .inner .db_box ul li.sex input + label {top: -2px; height: 8vw; width: 8vw; margin-left: -10px; line-height: 8vw; font-size: 4vw;}
-			.sc1 .inner .db_box ul li.birth input:first-child {letter-spacing: 0vw;}
-			
+			.sc1 .inner .db_box ul li.birth span.back_digit {letter-spacing:0.2vw;}
+			.sc1 .inner .db_box ul li.birth input:first-child::placeholder { letter-spacing: -0.2vw;}
+			.sc1 .inner .db_box ul li.birth input:last-child::placeholder {letter-spacing: 5vw; padding-left:2vw;}
+		
 			.sc2 {background-color: transparent;}
 			.sc2 .inner {padding: 0;}
 			.sc2 .img01 {margin-bottom: 5vw; background-color: transparent;}
@@ -350,7 +355,8 @@
 			.sc4 .inner .img02 img{ width: 85%;}
 
 			.sc6 {width: 100%; background-color: #fbe8ed;}
-            .sc6 .inner {width: 75%; padding: 7vw 0;}
+            .sc6 .inner {width: 90%; padding: 7vw 0;}
+			.sc6 .inner .db_box input[type="text"] {font-size: 3.5vw; letter-spacing: 0vw;}
             .sc6 .inner .db_box .img01 {float: none; width: 100%; margin: 0 auto; text-align: center; margin-bottom: 5vw;}
             .sc6 .inner .db_box form {float: none; width: 100%;}
             .sc6 .inner .db_box .db_box_btn {margin-top: 8vw;}
@@ -358,12 +364,11 @@
 			.sc6 .inner .db_box ul li.sex input + label { width: 7.7vw; height: 7.7vw;font-size: 3.5vw; margin-right: -2vw; line-height: 7vw; }
 			.sc6 .inner .db_box ul li.sex label:last-child {right:0;left:auto;}
 
-            .sc6 .inner .db_box ul li.birth span.space {color: #666;     margin: 0 1vw;}
-            .sc6 .inner .db_box ul li.birth input:first-child {width:50%}
-			.sc6 .inner .db_box ul li.birth input:last-child {width: 8vw; margin-right: 1vw;}
-			.sc6 .inner .db_box ul li.birth span.back_digit {color: #666; letter-spacing: -0.1vw;}
-			
-			.guide_area .guide_top button {width: 85%; margin: 0 auto; padding: 2vw;}
+            .sc6 .inner .db_box ul li.birth span.space {color: #666;}
+			.sc6 .inner .db_box ul li.birth input:last-child {margin-right: 0.5vw; width:8vw;}
+            .sc6 .inner .db_box ul li.birth span.back_digit {color: #666; letter-spacing: 0.5vw;}
+
+            .guide_area .guide_top button {width: 85%; margin: 0 auto; padding: 2vw;}
 
             .floating { position:fixed; left:0; bottom:-22vw; width:100%; margin-left: 0; background:#fff; z-index:-1; transition: opacity 0.3s; opacity:0; border-radius: 0px; border: 0px solid #ec98af; border-top: 1px solid #ec98af;}
             .show .floating { opacity:1; top: auto; bottom:0; height: auto; z-index:20; padding: 0;}
@@ -377,10 +382,10 @@
             .floating .inner ul li a {display: block;}
             .floating .inner ul li:last-child {margin-right: 0;}
             .floating .inner ul:after { content:""; display:block; clear:both; }
-            .floating .db_box { position:static; padding:5vw 7vw 6vw; }
+            .floating .db_box { position:static; padding:5vw}
             .floating .db_box h3 {width: 70%; margin: 0 auto;}
             .floating .db_box ul li.sex { right: 9vw; }
-            .floating .db_box ul li.name input {width:95%;}
+            
 			.floating .db_box ul li.sex input + label {top: -2px; height: 8vw; width: 8vw; margin-left: -10px; line-height: 8vw; font-size: 4vw;}
             .floating .db_box .btn_area {display: none;}
             .floating.on .btn { display: block; position: absolute; top: -5vw; left: 50%; transform: translateX(-50%);}
@@ -390,15 +395,14 @@
 
 
 
-            .floating .db_box ul li.birth span.space {margin: 0 1vw; font-size: 3.2vw;}
-            .floating .db_box ul li.birth span.back_digit {height: 100%; font-size: 3.2vw;}
-			.floating .db_box ul li.birth input:first-child {width: 55%;}
-            .floating .db_box ul li.birth input:last-child {width: 7vw; margin-right: 1vw; font-size: 90%; padding: 0;}
-            .floating .db_box ul li.birth input:last-child::placeholder { color: #666;}
-            .floating .db_box ul li.birth input:last-child::placeholder { color: #666;}
-			.floating .db_box ul li.phone {width:95%;}
-			
-			
+            .floating .db_box ul li.birth span.space {margin: 0 2vw; font-size: 3.2vw;}
+            .floating .db_box ul li.birth span.back_digit {height: 100%; font-size: 2.8vw;letter-spacing: 0.3vw;}
+            .floating .db_box ul li.birth input:first-child {width: 50%;}
+            .floating .db_box ul li.birth input:last-child {width: 7vw; margin-right: 1vw; padding: 0 0 0.5vw 0;}
+            .floating .db_box ul li.birth input:last-child::placeholder { color: #666; font-size:75%;}
+
+
+
             .popup .mask { position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: #000; opacity: 0.7; filter: alpha(opacity=70); z-index: 100; }
             .popup .popup_content { position: fixed; left: 50%; top: 50%; background: #fff; z-index: 101; }
             .popup.agree button { outline: none; }
@@ -441,6 +445,14 @@
             .popup.calc .popup_content .calc_area strong { margin: 0 7.6vw; font-size: 8.4vw; color: #dc3e69; }
             .popup.calc .btn_close { position: absolute; top:8px; right: 8px; }
         }
+		
+		@media (min-width : 360px)and (max-width : 1080px) {
+		.sc1 .inner .db_box ul li.birth span.back_digit {letter-spacing: 0.7vw;}
+		.sc6 .inner .db_box ul li.birth span.back_digit {letter-spacing: 1vw;}
+		.floating .db_box ul li.birth span.back_digit {letter-spacing: 1vw;}
+
+		}
+		
     </style>
 </head>
 <body>
@@ -611,7 +623,7 @@
                                     <label for="rn_sex6">여</label>
                                 </li> -->
                                 <li class="birth">
-                                    <input type="text" id="rn_jumin1" name="rn_jumin1" maxlength="6" placeholder="생년월일" onKeyUp="onlyNumber(this);" onKeyPress="checkInt()">
+                                    <input type="text" id="rn_jumin1" name="rn_jumin1" maxlength="6" placeholder="생년월일 (예. 801122)" onKeyUp="onlyNumber(this);" onKeyPress="checkInt()">
                                     <span class="space">-</span>
                                     <span class="back_digit">
                                         <input type="text" id="rn_sex" name="rn_sex" maxlength="1" placeholder="●" onKeyUp="onlyNumber(this);" onKeyPress="checkInt()">
